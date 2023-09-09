@@ -13,7 +13,9 @@ const Intro = () => {
   const vidRef = React.useRef();
 
   const handleVideo = ()=>{
-    setplayVideo((prevPlayVideo)=> !prevPlayVideo)
+    
+    setplayVideo((prevPlayVideo)=> !prevPlayVideo);
+
     if(playVideo){
       vidRef.current.pause()
     } else {
@@ -25,7 +27,7 @@ const Intro = () => {
     <div className='app__video'>
       <video 
         src={meal}
-        ref={vidRef }
+        ref={ vidRef }
         type='video/mp4'
         loop
         controls={false}

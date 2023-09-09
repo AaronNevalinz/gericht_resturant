@@ -18,11 +18,11 @@ const Navbar = () => {
 
 
         <ul className="app__navbar-links">
-          <li className='p__opensans'><a href="/">Home</a></li>
-          <li className='p__opensans'><a href="/">Pages</a></li>
-          <li className='p__opensans'><a href="/">Contact Us</a></li>
-          <li className='p__opensans'><a href="/">Blog</a></li>
-          <li className='p__opensans'><a href="/">Landing</a></li>
+          <li className='p__opensans'><a href="#home">Home</a></li>
+          <li className='p__opensans'><a href="#pages">Pages</a></li>
+          <li className='p__opensans'><a href="#contact">Contact Us</a></li>
+          <li className='p__opensans'><a href="#blog">Blog</a></li>
+          <li className='p__opensans'><a href="#landing">Landing</a></li>
         </ul>
         
         <div className='app__navbar-login'>
@@ -38,7 +38,7 @@ const Navbar = () => {
                 <div className='app__navbar-smallscreen-overlay flex__center slide-bottom'>
                     <MdOutlineRestaurantMenu color='#fff' fontSize={27} onClick={()=>setToggleMenu(false)} className='overlay__close'/>
                     <ul className="app__navbar-smallscreen-links">
-                      <li className='p__opensans'><a href="/">Home</a></li>
+                      <li className='p__opensans'><a href="#home">Home</a></li>
                       <li className='p__opensans'><a href="/">Pages</a></li>
                       <li className='p__opensans'><a href="/">Contact Us</a></li>
                       <li className='p__opensans'><a href="/">Blog</a></li>

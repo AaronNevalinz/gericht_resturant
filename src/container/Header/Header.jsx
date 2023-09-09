@@ -4,7 +4,7 @@ import './Header.css';
 import { SubHeading } from '../../components';
 
 const Header = () => (
-  <div className='app__header app__wrapper section__padding' id='home'>
+  <header className='app__header app__wrapper section__padding' id='home'>
 
     <div className="app__wrapper_info">
       <SubHeading title='Chase the new flavour'/>
@@ -17,7 +17,7 @@ const Header = () => (
       <img src={images.welcome} alt="header__img" />
     </div>
   
-  </div>
+  </header>
 );
 
 export default Header;
